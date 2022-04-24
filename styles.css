@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.poppins200 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+.poppins400 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.poppins600 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.grayish-blue {
+  color: hsl(229, 6%, 66%);
+}
+.v-dark-blue {
+  color: hsl(234, 12%, 34%);
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.border-red {
+  border-color: hsl(180, 62%, 55%);
+}
+.border-cyan {
+  border-color: hsl(0, 78%, 62%);
+}
+.border-orange {
+  border-color: hsl(34, 97%, 64%);
+}
+.border-blue {
+  border-color: hsl(212, 86%, 64%);
+}
+.v-light-grey {
+  background-color: hsl(0, 0%, 98%);
+}
+.supervisor {
+  position: relative;
+  left: 0;
+  top: 180px;
+}
+.team {
+  position: relative;
+  top: 0;
+}
+.karma {
+  position: absolute;
+  bottom: 0;
+  right: 370px;
+}
+.calculator {
+  position: absolute;
+  right: -20px;
+  bottom: 100px;
+}
